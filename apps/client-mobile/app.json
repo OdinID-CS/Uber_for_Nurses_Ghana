@@ -1,0 +1,1 @@
+{"expo":{"name":"Nurse Home Care","slug":"nurse-home-care","scheme":"nursehomecare","plugins":["expo-router"],"experiments":{"typedRoutes":true},"android":{"package":"gh.nursehomecare.client"},"ios":{"bundleIdentifier":"gh.nursehomecare.client"}}}

@@ -1,0 +1,22 @@
+{
+  "name": "uber-for-nurses-ghana",
+  "private": true,
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev:client": "pnpm --filter @nurses/client-mobile start",
+    "dev:nurse": "pnpm --filter @nurses/nurse-mobile start",
+    "dev:api": "pnpm --filter @nurses/api start:dev",
+    "dev:ops": "pnpm --filter @nurses/ops-web dev",
+    "dev:worker": "pnpm --filter @nurses/worker dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "19.1.0",
+      "react-dom": "19.1.0",
+      "typescript": "~5.7.3"
+    }
+  }
+}
